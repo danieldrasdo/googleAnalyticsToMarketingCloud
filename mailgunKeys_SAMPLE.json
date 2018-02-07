@@ -1,0 +1,6 @@
+{
+  "auth": {
+    "api_key": "key-XXXXXXXXXX_YourMailgunApiKey_XXXXXXXXXX",
+    "domain": "mg.your-mailgun-domain.com"
+  }
+}
