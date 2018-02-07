@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "yourGoogleAnalyticsProjectId",
+  "private_key_id": "yourGoogleAnalyticsPrivateKeyId",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nyourGoogleAnalyticsPrivateKeyInfo-----END PRIVATE KEY-----\n",
+  "client_email": "yourGoogleAnalyticsEmail@yourGoogleAnalyticsProjectId.iam.gserviceaccount.com",
+  "client_id": "yourGoogleAnalyticsClientKeyId",
+  "auth_uri": "yourGoogleAnalyticsAuthUri",
+  "token_uri": "yourGoogleAnalyticsTokenUri",
+  "auth_provider_x509_cert_url": "yourGoogleAnalyticsCertProviderUrl",
+  "client_x509_cert_url": "yourGoogleAnalyticsCertUrl"
+}
