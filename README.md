@@ -26,3 +26,5 @@ You must also create a data extension within Marketing Cloud with an external ke
 | transactionRevenuePerSession | Decimal | 20,10 | No |
 
 No nullables, empty default values. This assumes what makes an email unique is the campaign name and keyword combo.
+
+This also uses mailgun to email someone if there's ever an error. There are comments in the code that talk about this.
