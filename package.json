@@ -1,7 +1,7 @@
 {
   "name": "ga",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "dependencies": {
     "fuel-rest": "^3.0.3",
