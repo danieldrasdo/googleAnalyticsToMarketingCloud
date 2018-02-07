@@ -7,7 +7,8 @@ This assumes your utm variables are as follows...
 | :--- | ---: |
 | utm_medium | email |
 | utm_term | %%=Format(Now(true),''yyyyMMdd'')=%% |
-| utm_source | typeOfEmail |
+| utm_source | typeOfEmail (we use %%__AdditionalEmailAttribute1%% for this) |
+| utm_campaign | emailName (%%emailname_%%) |
 
 You must also create a data extension within Marketing Cloud with an external key of `google-analytics` that has the following info...
 
