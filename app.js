@@ -230,7 +230,7 @@ const fuelRestKey = require('./fuelRestKeys.json');//View the fuelRestKeys_SAMPL
 const RestClient = new FuelRest(fuelRestKey);
 
 const nodemailer = require('nodemailer');
-const mg = require('nodemailer-mailgun-transport');
+const mg = require('nodemailer-mailgun-transport');//See this repo for more info, https://github.com/orliesaurus/nodemailer-mailgun-transport
 const mailgunKey = require('./mailgunKeys.json');//View the mailgunKeys_SAMPLE.json, edit it, and remove '_SAMPLE'
 const nodemailerMailgun = nodemailer.createTransport(mg(mailgunKey));
 
