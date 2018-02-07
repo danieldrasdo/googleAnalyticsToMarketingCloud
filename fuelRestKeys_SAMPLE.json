@@ -1,0 +1,7 @@
+{
+  "auth": {
+    "clientId": "yourClientId",
+    "clientSecret": "yourClientSecret"
+  },
+  "origin": "https://www.exacttargetapis.com"
+}
