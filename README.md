@@ -4,7 +4,7 @@ Node app to pull data from Google Analytics and post into a Salesforce Marketing
 This assumes your utm variables are as follows...
 
 | VARIABLE | VALUE |
-| --- | --- |
+| :--- | ---: |
 | utm_medium | email |
 | utm_term | %%=Format(Now(true),''yyyyMMdd'')=%% |
 | utm_source | typeOfEmail |
@@ -12,7 +12,7 @@ This assumes your utm variables are as follows...
 You must also create a data extension within Marketing Cloud with an external key of `google-analytics` that has the following info...
 
 | Name | Data Type | Length | Primary key |
-| --- | --- | --- | --- |
+| :--- | :--- | :---: | ---: |
 | campaign | Text | 100 | Yes |
 | keyword | Text | 8 | Yes |
 | source | Text | 100 | No |
