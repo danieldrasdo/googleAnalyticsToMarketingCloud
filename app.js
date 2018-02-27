@@ -6,7 +6,7 @@ Date.prototype.addDays = function(days) {
   return d;
 }
 
-//Adds a method to the Date object that calculates days between to dates
+//Adds a method to the Date object that calculates days between two dates
 Date.daysBetween = function(date1, date2) {
   //Get 1 day in milliseconds
   var one_day=1000*60*60*24;
