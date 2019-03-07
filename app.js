@@ -43,7 +43,7 @@ function logMe(str, boolean) {
 //Ends the time-stamped log and returns
 function endAndReturn(error) {
   if (error) {
-    logDetails += err;
+    logDetails += error;
   }
   logDetails += 'ENDED';
   console.log(logDetails);
@@ -52,7 +52,7 @@ function endAndReturn(error) {
       'yourEmail@yourDomain.com',
       ['yourEmail@gmail.com','yourEmail@yourCompany.com'],
       'Error occurred!',
-      'The following error occurred on this run of the GoogleAnalytics Node App.\n' + err + '\n\n\nThe full log details are as follows...\n' + logDetails + '\n',
+      'The following error occurred on this run of the GoogleAnalytics Node App.\n' + error + '\n\n\nThe full log details are as follows...\n' + logDetails + '\n',
       alertSent
     );
   } else {
